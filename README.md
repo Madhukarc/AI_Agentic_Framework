@@ -22,12 +22,15 @@ This project implements a simple AI agent API using Flask, LangChain, and OpenAI
 1. Clone this repository
 
 2. Create Python Virtual Environment
+   
     python -m venv mvenv
 
 3. Acivate the Python Virtual Environment
+   
    source venv/bin/activate  # On Windows, use `mvenv\Scripts\activate`
 
 4. Install the required packages:
+   
    pip install -r requirements.txt
 
 5. Set up your OpenAI API key in a `.env` file (see Configuration section)
