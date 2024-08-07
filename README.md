@@ -46,9 +46,5 @@ This project implements a simple AI agent API using Flask, LangChain, and OpenAI
     {
       "question": "What is 2 + 2?"
     }
-```json
-{
-  "question": "What is 2 + 2?"
-}
 
 3. The API will return a JSON response with the agent's answer.
