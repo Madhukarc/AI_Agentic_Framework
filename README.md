@@ -42,6 +42,10 @@ This project implements a simple AI agent API using Flask, LangChain, and OpenAI
     python app.py
 
 2. Send a POST request to `http://localhost:5000/query` with a JSON body containing a "question" field:
+   ```json
+    {
+      "question": "What is 2 + 2?"
+    }
 ```json
 {
   "question": "What is 2 + 2?"
