@@ -50,5 +50,8 @@ This project implements a simple AI agent API using Flask, LangChain, and OpenAI
     {
       "question": "What is 2 + 2?"
     }
+3. To query the AI agent, send a POST request to the `/query` endpoint:
+   ```
+   curl -X POST -H "Content-Type: application/json" -d '{"question":"What are the latest developments in AI?"}' http://127.0.0.1:5000/query
 
 3. The API will return a JSON response with the agent's answer.
