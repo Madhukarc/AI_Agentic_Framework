@@ -38,6 +38,7 @@ This project implements a simple AI agent API using Flask, LangChain, and OpenAI
 ## Configuration
     Create a `.env` file in the root directory of the project and add your OpenAI API key:
     OPENAI_API_KEY=your_api_key_here
+    SERPER_API_KEY=your_serper_api_key_here
 
 ## Usage
 
